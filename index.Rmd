@@ -1,0 +1,143 @@
+---
+title: "Laura Henze"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Laura Henze
+
+**Medical Doctor**  
+Master’s Candidate in Biomedical Informatics  
+Columbia University, New York, NY  
+
+---
+
+## Experience
+
+**Resident Doctor**  
+*Spital Linth, Uznach, Switzerland*  
+Sep 2021 - Aug 2023  
+- Internal Medicine and Emergency Medicine
+- Certified in advanced cardiac life support and abdominal ultrasound
+
+**Clinical Rotation**  
+*Department of General, Cardiothoracic and Vascular Surgery, Stadtspital Zürich*  
+Feb 2021 - May 2021  
+
+**Clinical Rotation**  
+*Department of Orthopedic Surgery, University Hospital Basel*  
+Sep 2020 - Jan 2021  
+
+**Clinical Rotation**  
+*Department of Cardiology and Nephrology, Universitätsklinikum Heidelberg*  
+May 2020 - Aug 2020  
+
+**Clinical Internship**  
+*Department of Cardiology, Trinity College Dublin*  
+Aug 2017 - Sep 2017  
+
+**Clinical Internship**  
+*Department of General Surgery, University Clinic Bonn*  
+Apr 2017 - May 2017  
+
+**Clinical Internship**  
+*Department of Internal Medicine, DRK Kliniken Berlin*  
+Aug 2016 - Sep 2016  
+
+**Clinical Internship**  
+*Department of Pediatric Surgery, Charité - Universitätsmedizin Berlin*  
+Aug 2015 - Oct 2015  
+
+**Internship at Public Health NGO**  
+*Mahatma Gandhi Hospital, Rangamatia, India*  
+Aug 2012 - Sep 2012  
+
+---
+
+## Education
+
+**Columbia University**  
+Master of Arts in Biomedical Informatics  
+Sep 2023 - 2025  
+
+**Charité - Universitätsmedizin Berlin**  
+Doctor of Medicine (MD)  
+Oct 2014 - Jul 2021  
+- Doctoral thesis at Alesutan/Voelkl Laboratory, Center for Cardiovascular Research
+- Research in cardiovascular science focused on mediasclerosis, uncovering new pathomechanisms and therapeutic targets
+- Presented research at Europhysiology and the German Society of Nephrology
+- Techniques: cell culture, quantitative PCR, western blotting, staining, calcium quantification assays
+- Selected for exchange programs at Trinity College Dublin and Northwestern University Chicago
+- Additional coursework in computer science and statistics at Technische Universität, Berlin
+
+**Yale University**  
+Research Fellowship, Department of Immunobiology, Flavell Laboratory  
+Feb 2019 - Oct 2019  
+- Investigated tumor and immune cell interaction in the tumor microenvironment
+- Developed models to study individual patients’ tumors in humanized mice
+- Studied the influence of innate immunity and immunoediting in carcinogenesis
+- Techniques: flow cytometry, knockout models, transgenic cell lines, tumor engraftment surgery
+
+**Incline High School**  
+High School Exchange Year  
+2010 - 2011  
+
+**Hardtberg-Gymnasium Bonn**  
+Bilingual German/French High School Diploma  
+Sep 2011 - Jul 2013  
+Grade: 1,0
+
+---
+
+## Licenses & Certifications
+
+- **Congress Scholarship**, Charité - Universitätsmedizin Berlin, Aug 2018
+- **Student Scholarship**, Friedrich Naumann Foundation for Freedom (funded by the Federal Ministry of Education and Research), Sep 2014 - Jul 2021
+- **Rotary Youth Exchange Scholarship**, Rotary International, Aug 2010 - Aug 2011  
+
+---
+
+## Volunteering
+
+**German American Conference at Harvard 2024**  
+Fundraising Team Member
+
+**LEAP GuG**  
+Website and Social Media Management  
+Jul 2019 - Present
+
+**Manos y Naturaleza, Santiago de Chile**  
+Voluntary Service  
+Sep 2013 - Sep 2014  
+Funded by the Federal Ministry of Family Affairs, Senior Citizens, Women, and Youth
+
+---
+
+## Publications
+
+1. **"Augmentative effects of leukemia inhibitory factor reveal a critical role for TYK2 signaling in vascular calcification"**, *Kidney International*, Jul 30, 2024  
+2. **"Autologous humanized PDX modeling for immuno-oncology recapitulates features of the human tumor microenvironment"**, *Journal for ImmunoTherapy of Cancer*, Jul 11, 2023  
+3. **"Periostin Augments Vascular Smooth Muscle Cell Calcification via β-Catenin Signaling"**, *Biomolecules*, Aug 21, 2022  
+4. **"Zinc Ameliorates the Osteogenic Effects of High Glucose in Vascular Smooth Muscle Cells"**, *Cells*, Nov 9, 2021  
+5. **"Role of SGK1 in the Osteogenic Transdifferentiation and Calcification of Vascular Smooth Muscle Cells Promoted by Hyperglycemic Conditions"**, *Int J Mol Sci*, Sep 29, 2020  
+6. **"Impact of C-reactive protein on osteo-/chondrogenic transdifferentiation and calcification of vascular smooth muscle cells"**, *Aging*, Aug 3, 2019  
+7. **"Role of Cytosolic Serine Hydroxymethyl Transferase 1 (SHMT1) in Phosphate-Induced Vascular Smooth Muscle Cell Calcification"**, *Kidney and Blood Pressure Research*, Jul 31, 2018  
+
+---
+
+## Test Scores
+
+**TOEFL**  
+Score: 113/120, Sep 2022  
+
+---
+
+## Languages
+
+- **English**: Full professional proficiency
+- **French**: Full professional proficiency
+- **German**: Native
+- **Spanish**: Professional working proficiency
