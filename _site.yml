@@ -5,8 +5,14 @@ navbar:
   right:
     - text: "CV"
       href: CV.html
+    - icon: fa-github fa-lg
+      href: https://github.com/L54321
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/laura-henze/
+    - icon: fa-envelope fa-lg
+      href: mailto:laura.alina.henze@gmail.com
+    - text: "PubMed"
+      href: https://pubmed.ncbi.nlm.nih.gov/?term=Laura+A.+Henze
 output:
   html_document:
     theme: cerulean
