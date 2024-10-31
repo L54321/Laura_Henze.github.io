@@ -7,7 +7,7 @@ output:
 ---
 
 
-```{r}
+```{r setup, include=FALSE}
 #install.packages("devtools")
 devtools::install_github("p8105/p8105.datasets")
 
@@ -24,6 +24,7 @@ nyc_restaurants <-
   filter(!is.na(score)) |>
   sample_n(5000)
 ```
+### Inspection scores over time
 
 ```{r}
 nyc_restaurants |>
@@ -34,6 +35,8 @@ nyc_restaurants |>
          yaxis = list(title = "Score"))
 ```
 
+### Score distribution by cuisine
+
 ```{r}
 nyc_restaurants |>
   plot_ly(y = ~score, x = ~cuisine_description, type = 'box', color = ~cuisine_description) |>
@@ -42,11 +45,13 @@ nyc_restaurants |>
          yaxis = list(title = "Score"))
 ```
 
+### Number of restaurants per borough
+
 ```{r}
 nyc_restaurants |>
   count(boro) |>
   plot_ly(x = ~boro, y = ~n, type = 'bar', color = ~boro) |>
-  layout(title = "Number of restaurants by borough",
+  layout(title = "Number of restaurants per borough",
          xaxis = list(title = "Borough"),
          yaxis = list(title = "Count"))
 ```
