@@ -6,25 +6,66 @@ output:
     vertical_layout: fill
 ---
 
+
 ```{r}
-# Install p8105.datasets package
 #install.packages("devtools")
 devtools::install_github("p8105/p8105.datasets")
 
-# Load necessary libraries
 library(flexdashboard)
 library(p8105.datasets)
 library(dplyr)
 library(plotly)
 
-# Load the rest_inspec dataset from the package
 data(rest_inspec)
 nyc_restaurants <- rest_inspec
 
-# Filter and sample the dataset
 nyc_restaurants <- 
-  nyc_restaurants %>%
-  filter(!is.na(score)) %>%
-  sample_n(1000)  # Sample to reduce dataset size for spee
+  nyc_restaurants |>
+  filter(!is.na(score)) |>
+  sample_n(5000)
 ```
+
+```{r}
+nyc_restaurants |>
+  plot_ly(x = ~inspection_date, y = ~score, type = 'scatter', mode = 'markers', 
+          color = ~score) |>
+  layout(title = "Inspection scores over time", 
+         xaxis = list(title = "Inspection date"), 
+         yaxis = list(title = "Score"))
+```
+
+```{r}
+nyc_restaurants |>
+  plot_ly(y = ~score, x = ~cuisine_description, type = 'box', color = ~cuisine_description) |>
+  layout(title = "Score distribution by cuisine",
+         xaxis = list(title = "Cuisine type", tickangle = -45),
+         yaxis = list(title = "Score"))
+```
+
+```{r}
+nyc_restaurants |>
+  count(boro) |>
+  plot_ly(x = ~boro, y = ~n, type = 'bar', color = ~boro) |>
+  layout(title = "Number of restaurants by borough",
+         xaxis = list(title = "Borough"),
+         yaxis = list(title = "Count"))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
