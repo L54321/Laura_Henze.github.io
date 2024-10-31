@@ -1,0 +1,30 @@
+---
+title: "NYC Restaurant Inspections Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r}
+# Install p8105.datasets package
+#install.packages("devtools")
+devtools::install_github("p8105/p8105.datasets")
+
+# Load necessary libraries
+library(flexdashboard)
+library(p8105.datasets)
+library(dplyr)
+library(plotly)
+
+# Load the rest_inspec dataset from the package
+data(rest_inspec)
+nyc_restaurants <- rest_inspec
+
+# Filter and sample the dataset
+nyc_restaurants <- 
+  nyc_restaurants %>%
+  filter(!is.na(score)) %>%
+  sample_n(1000)  # Sample to reduce dataset size for spee
+```
+

@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "CV"
       href: CV.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-github fa-lg
       href: https://github.com/L54321
     - icon: fa-linkedin fa-lg
